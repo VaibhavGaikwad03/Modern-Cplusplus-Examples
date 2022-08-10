@@ -23,11 +23,8 @@ int main()
         printf("Unable to open the file\n");
         return -1;
     }
-    printf("File opened succesfully with fd : %d\n", fd);
 
     iRet = read(fd, Data, 10);
-
-    printf("%d bytes get succesfully read from file\n", iRet);
 
     printf("Data from file is : \n");
 
